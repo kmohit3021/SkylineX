@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_910009_PIM_Employee_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0c327ff-c7e4-4bbe-b025-ca6bd8c5c60b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>758e9c0f-03bf-4bb6-b8a4-16e90fdf550e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Alice Johnson'</defaultValue>
+      <description></description>
+      <id>758e9c0f-03bf-4bb6-b8a4-16e90fdf550e</id>
+      <masked>false</masked>
+      <name>Fullname</name>
+   </variable>
+</TestCaseEntity>

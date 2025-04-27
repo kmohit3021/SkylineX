@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_910005_Employee_Salary_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5bf2ee38-a1c0-4b3b-911a-836c28b809d0</testCaseGuid>
+   <variable>
+      <defaultValue>'CTC'</defaultValue>
+      <description></description>
+      <id>9a4b6fe3-aee5-47a8-8279-53689c906001</id>
+      <masked>false</masked>
+      <name>Salary_Component</name>
+   </variable>
+   <variable>
+      <defaultValue>'Grade 2'</defaultValue>
+      <description></description>
+      <id>25ccc639-4a6e-4693-95a1-1aceaf63b9b5</id>
+      <masked>false</masked>
+      <name>Pay_Grade</name>
+   </variable>
+   <variable>
+      <defaultValue>'Monthly'</defaultValue>
+      <description></description>
+      <id>323bf1c8-be2c-4c1c-a590-6a7ef90e71eb</id>
+      <masked>false</masked>
+      <name>Pay_Frequency</name>
+   </variable>
+   <variable>
+      <defaultValue>'United States Dollar'</defaultValue>
+      <description></description>
+      <id>f1e73241-ae26-41f3-b490-c694b8acc4ec</id>
+      <masked>false</masked>
+      <name>Salary_Currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'30000'</defaultValue>
+      <description></description>
+      <id>d160aa53-ba2e-40f2-90ea-387a730fe40e</id>
+      <masked>false</masked>
+      <name>Amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'CTC Components'</defaultValue>
+      <description></description>
+      <id>d4753616-68cb-4958-ace9-17d27f823f4a</id>
+      <masked>false</masked>
+      <name>Salary_Comments</name>
+   </variable>
+   <variable>
+      <defaultValue>'Alice Johnson'</defaultValue>
+      <description></description>
+      <id>0e7b1cc5-0d89-45c4-986a-277098be9444</id>
+      <masked>false</masked>
+      <name>Fullname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_930001_Add_Customer_Projects</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e13e63f8-de03-45db-83f6-9670f10adc05</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d542699d-6bf0-4962-8926-b5e7ba75e2ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>059a02b6-efee-41f2-aa29-24bafa66685e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5cb5c21-cd53-4606-ba98-d92e4444ea83</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7dca472b-0ad5-4006-8417-c6c3cc92a313</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Test Project 3'</defaultValue>
+      <description></description>
+      <id>d542699d-6bf0-4962-8926-b5e7ba75e2ea</id>
+      <masked>false</masked>
+      <name>Project_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Petronas'</defaultValue>
+      <description></description>
+      <id>059a02b6-efee-41f2-aa29-24bafa66685e</id>
+      <masked>false</masked>
+      <name>Customer_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Project Descriptions.'</defaultValue>
+      <description></description>
+      <id>d5cb5c21-cd53-4606-ba98-d92e4444ea83</id>
+      <masked>false</masked>
+      <name>Project_Descriptions</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mahtab Siddique'</defaultValue>
+      <description></description>
+      <id>7dca472b-0ad5-4006-8417-c6c3cc92a313</id>
+      <masked>false</masked>
+      <name>Project_Admin</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_OR_931002_Add_Project_Activities</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>2aec2d5c-3bd7-42c5-96c6-d3d8ab12d958</testSuiteGuid>
+   <testCaseLink>
+      <guid>9ecc1a3c-658b-441e-a239-f451cbb86397</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e681858-57c6-4ccd-95ec-ce80b1faaa6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_930001_Customer_and_Projects/TC_OR_930002_Add_Project_Activities</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0554518c-86fa-4541-a8e4-0dcd3ba449e7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Company_And_Projects/Projects_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0554518c-86fa-4541-a8e4-0dcd3ba449e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CompanyName</value>
+         <variableId>a22f9ed6-aade-411b-b415-2335ab998b3c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0554518c-86fa-4541-a8e4-0dcd3ba449e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProjectName</value>
+         <variableId>6f3de572-1204-4e2d-ace2-83fcf25f53d3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

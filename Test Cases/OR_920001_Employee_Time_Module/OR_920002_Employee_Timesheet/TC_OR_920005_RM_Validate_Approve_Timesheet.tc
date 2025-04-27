@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_920005_RM_Validate_Approve_Timesheet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a42a51e-64e2-4f53-88c9-a330a2761f1a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80660210-1eca-4c1c-983b-afb3a4a36fbe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>80660210-1eca-4c1c-983b-afb3a4a36fbe</id>
+      <masked>false</masked>
+      <name>Approval_Iterations</name>
+   </variable>
+</TestCaseEntity>

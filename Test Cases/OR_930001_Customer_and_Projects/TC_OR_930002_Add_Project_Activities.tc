@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_930002_Add_Project_Activities</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>795ce79a-1ee0-412f-aabf-165dbfda459a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a22f9ed6-aade-411b-b415-2335ab998b3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f3de572-1204-4e2d-ace2-83fcf25f53d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Accenture'</defaultValue>
+      <description></description>
+      <id>a22f9ed6-aade-411b-b415-2335ab998b3c</id>
+      <masked>false</masked>
+      <name>Company_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Agile Transformation Tool'</defaultValue>
+      <description></description>
+      <id>6f3de572-1204-4e2d-ace2-83fcf25f53d3</id>
+      <masked>false</masked>
+      <name>Project_Name</name>
+   </variable>
+</TestCaseEntity>

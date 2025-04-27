@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to Timesheet Submission page on Orange HRM
+Select employee for timesheet submission
+Fill in 'Date' field with valid data
+Fill in 'Hours Worked' field with valid data
+Fill in 'Description' field with valid data
+Submit the timesheet after filling all required fields</description>
+   <name>TC_OR_920004_Timesheet_With_InValid_on_Required_Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>151c2370-200e-469b-b4cd-f6b13d700b99</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7a2d0d7-3471-43d5-9b1e-56419e2ce140</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8ef9dd2-9637-4789-a1a4-fe81d314f5de</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'jeremy.jones'</defaultValue>
+      <description></description>
+      <id>d7a2d0d7-3471-43d5-9b1e-56419e2ce140</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'p7egalF197zCPQnMaznrNq5yBULcTkKN'</defaultValue>
+      <description></description>
+      <id>c8ef9dd2-9637-4789-a1a4-fe81d314f5de</id>
+      <masked>false</masked>
+      <name>UserPassword</name>
+   </variable>
+</TestCaseEntity>

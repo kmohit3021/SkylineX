@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_OR_921001_Employee_PunchIn</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3c1ade2b-7954-4da6-99cd-d210eaea8ffa</testSuiteGuid>
+   <testCaseLink>
+      <guid>1373e79d-2edf-4cb0-a8c7-5e037099a866</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_920001_Employee_Time_Module/OR_920001_Employee_PunchInOut/TC_OR_920001_Employee_PunchIn</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>40d92287-6025-43b0-a9b8-91699b6ec255</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
+         </iterationEntity>
+         <testDataId>Data Files/Employee_Onboarding/Employee_Date</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>40d92287-6025-43b0-a9b8-91699b6ec255</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>de2352a1-7c6b-4574-a33f-f8bbe7137023</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>40d92287-6025-43b0-a9b8-91699b6ec255</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>84993bd9-c10a-45b8-8be4-1737774aa938</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

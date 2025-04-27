@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_OR_911008_Employee_Profile_Photo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>87d916d7-2171-4854-a6c2-b43d58f00d45</testSuiteGuid>
+   <testCaseLink>
+      <guid>e369a1e6-f386-4073-992e-54ebffbc795b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_910001_Employee_Onboarding/TC_OR_910008_Employee_Profile_Photo_Upload</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>44546034-5e25-406c-9eb9-67f79a153531</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Employee_Onboarding/Employee_Date</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>44546034-5e25-406c-9eb9-67f79a153531</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FullName2</value>
+         <variableId>2c6d00c4-0db4-441b-bdb4-ae7012c6f908</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>44546034-5e25-406c-9eb9-67f79a153531</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gender</value>
+         <variableId>c900cb2f-b9ef-4e03-a439-afb015574b06</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

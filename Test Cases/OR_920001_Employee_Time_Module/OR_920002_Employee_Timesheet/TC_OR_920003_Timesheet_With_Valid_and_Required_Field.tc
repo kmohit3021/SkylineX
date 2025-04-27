@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to Timesheet Submission page on Orange HRM
+Select employee for timesheet submission
+Fill in 'Date' field with valid data
+Fill in 'Hours Worked' field with valid data
+Fill in 'Description' field with valid data
+Submit the timesheet after filling all required fields</description>
+   <name>TC_OR_920003_Timesheet_With_Valid_and_Required_Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5b84f99-173f-419f-b114-c99cc0eb2593</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1aa41f16-a87a-446d-ac58-828f80bfaaf2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>986146b1-d676-4a3a-9ec1-017e9b01ff20</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'amy.gonzalez'</defaultValue>
+      <description></description>
+      <id>1aa41f16-a87a-446d-ac58-828f80bfaaf2</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'p7egalF197zCPQnMaznrNq5yBULcTkKN'</defaultValue>
+      <description></description>
+      <id>986146b1-d676-4a3a-9ec1-017e9b01ff20</id>
+      <masked>false</masked>
+      <name>UserPassword</name>
+   </variable>
+</TestCaseEntity>

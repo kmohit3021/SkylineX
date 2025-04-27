@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_910004_Employee_Job_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11a9e041-5b32-4616-bac5-94c744018d1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22df6086-9f53-47d9-90a3-90a140489966</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05faa9af-8e4a-46c5-9c48-d90a965bf62d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec677482-adbc-4628-98a4-b4cbb9d45200</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8adf209f-4239-4df2-9ce3-0e1b21c1a61e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>192fa70c-6761-4174-9148-3e98ddc99efa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4256b877-67c2-4553-b384-438c774eb291</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'AI Test Engineer'</defaultValue>
+      <description></description>
+      <id>22df6086-9f53-47d9-90a3-90a140489966</id>
+      <masked>false</masked>
+      <name>Job_Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Professionals'</defaultValue>
+      <description></description>
+      <id>05faa9af-8e4a-46c5-9c48-d90a965bf62d</id>
+      <masked>false</masked>
+      <name>Job_Category</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Tester'</defaultValue>
+      <description></description>
+      <id>ec677482-adbc-4628-98a4-b4cbb9d45200</id>
+      <masked>false</masked>
+      <name>Sub_Unit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Office'</defaultValue>
+      <description></description>
+      <id>8adf209f-4239-4df2-9ce3-0e1b21c1a61e</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>'Full-Time Permanent'</defaultValue>
+      <description></description>
+      <id>192fa70c-6761-4174-9148-3e98ddc99efa</id>
+      <masked>false</masked>
+      <name>Employee_Status</name>
+   </variable>
+   <variable>
+      <defaultValue>'Alice Johnson'</defaultValue>
+      <description></description>
+      <id>4256b877-67c2-4553-b384-438c774eb291</id>
+      <masked>false</masked>
+      <name>Fullname</name>
+   </variable>
+</TestCaseEntity>

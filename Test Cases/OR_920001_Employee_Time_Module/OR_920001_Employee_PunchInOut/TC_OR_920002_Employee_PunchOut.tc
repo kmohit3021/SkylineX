@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_920002_Employee_PunchOut</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90440e70-f7c2-4201-a419-e55c236bc177</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7150066a-6899-4aeb-99c2-9fa9a4634c27</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91a73bdc-b247-4b60-baa0-559f33246253</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'mahtab'</defaultValue>
+      <description></description>
+      <id>7150066a-6899-4aeb-99c2-9fa9a4634c27</id>
+      <masked>false</masked>
+      <name>Employee_Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'p7egalF197zCPQnMaznrNq5yBULcTkKN'</defaultValue>
+      <description></description>
+      <id>91a73bdc-b247-4b60-baa0-559f33246253</id>
+      <masked>false</masked>
+      <name>Employee_Password</name>
+   </variable>
+</TestCaseEntity>

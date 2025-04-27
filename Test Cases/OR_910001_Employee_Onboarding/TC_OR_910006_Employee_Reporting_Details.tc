@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_910006_Employee_Reporting_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40558616-9701-4c62-b236-18a92ab6beed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06cf81e6-4779-4983-8319-f33181734f4f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91c4c74a-b562-40e5-8724-d887a85551d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fc21d6b-cec5-48fb-9330-848f903b12ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Alice Johnson'</defaultValue>
+      <description></description>
+      <id>06cf81e6-4779-4983-8319-f33181734f4f</id>
+      <masked>false</masked>
+      <name>Fullname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mahtab Siddique'</defaultValue>
+      <description></description>
+      <id>91c4c74a-b562-40e5-8724-d887a85551d6</id>
+      <masked>false</masked>
+      <name>Supervisor_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Direct'</defaultValue>
+      <description></description>
+      <id>4fc21d6b-cec5-48fb-9330-848f903b12ca</id>
+      <masked>false</masked>
+      <name>Reporting_Method</name>
+   </variable>
+</TestCaseEntity>

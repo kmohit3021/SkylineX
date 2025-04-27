@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_OR_911004_Employee_Job_Update</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>12e040d7-5eef-47ce-bd78-8b888f927b86</testSuiteGuid>
+   <testCaseLink>
+      <guid>3feddad1-f93c-4c43-9887-d6d1a0d08d3b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1b4de07-9f48-4118-9080-97dd6971553a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_910001_Employee_Onboarding/TC_OR_910004_Employee_Job_Details</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Employee_Onboarding/Employee_Date</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job_Title</value>
+         <variableId>22df6086-9f53-47d9-90a3-90a140489966</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job_Category</value>
+         <variableId>05faa9af-8e4a-46c5-9c48-d90a965bf62d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Sub_Unit</value>
+         <variableId>ec677482-adbc-4628-98a4-b4cbb9d45200</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Location</value>
+         <variableId>8adf209f-4239-4df2-9ce3-0e1b21c1a61e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Employee_Status</value>
+         <variableId>192fa70c-6761-4174-9148-3e98ddc99efa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dd9fa1be-8a8e-4375-87e2-3315d1c1bf1a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FullName2</value>
+         <variableId>4256b877-67c2-4553-b384-438c774eb291</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

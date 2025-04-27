@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_OR_931001_Add_Projects</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>817ecffa-c605-4ab1-860a-42273070ae25</testSuiteGuid>
+   <testCaseLink>
+      <guid>14fa9794-e153-4bef-82ca-5cbb138c1dc9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_910001_Employee_Onboarding/TC_OR_910007_Employee_Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a2de99d7-f85d-4126-a6ad-3d85b442f088</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OR_930001_Customer_and_Projects/TC_OR_930001_Add_Customer_Projects</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fb501470-69a9-4914-b0c0-bc9cc9361125</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Company_And_Projects/Projects_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>fb501470-69a9-4914-b0c0-bc9cc9361125</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProjectName</value>
+         <variableId>d542699d-6bf0-4962-8926-b5e7ba75e2ea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fb501470-69a9-4914-b0c0-bc9cc9361125</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CompanyName</value>
+         <variableId>059a02b6-efee-41f2-aa29-24bafa66685e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fb501470-69a9-4914-b0c0-bc9cc9361125</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProjectDescription</value>
+         <variableId>d5cb5c21-cd53-4606-ba98-d92e4444ea83</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fb501470-69a9-4914-b0c0-bc9cc9361125</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProjectAdmin</value>
+         <variableId>7dca472b-0ad5-4006-8417-c6c3cc92a313</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

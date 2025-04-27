@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_OR_920006_RM_Validate_Reject_Timesheet</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d62b63e8-f109-4ccb-8751-0c673524a849</testCaseGuid>
+</TestCaseEntity>
