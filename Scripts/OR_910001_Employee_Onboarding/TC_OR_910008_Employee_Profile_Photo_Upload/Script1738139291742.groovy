@@ -1,21 +1,8 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import org.openqa.selenium.support.Color as Color
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 // Open the browser
 WebUI.comment('Opening the browser.')
@@ -33,13 +20,13 @@ WebUI.maximizeWindow()
 WebUI.comment('Entering the username.')
 
 WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/input_Username_username'), 
-    'mahtab')
+    GlobalVariable.Username)
 
 // Enter the password
 WebUI.comment('Entering the password.')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/input_Password_password'), 
-    'p7egalF197zCPQnMaznrNq5yBULcTkKN')
+    GlobalVariable.Password)
 
 // Click the login button
 WebUI.comment('Clicking the login button.')
@@ -67,6 +54,8 @@ WebUI.comment('Selecting the employee from the search results.')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/div_10010'))
 
+String Employee_Gender = CustomKeywords.'orangehrm.OrangeUtility.verifyGender'()
+
 // Open the employee's profile photo section
 WebUI.comment('Opening the employee profile photo section.')
 
@@ -74,8 +63,6 @@ WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Profi
 
 // Click the upload button to upload a new photo
 WebUI.comment('Clicking the upload button to upload a new profile photo.')
-
-WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/upload_button'))
 
 // Determine the file path based on employee gender
 WebUI.comment('Determining the file path for the profile photo based on the employee gender.')
@@ -85,21 +72,20 @@ String filePath
 if (Employee_Gender == 'Male') {
     WebUI.comment('The employee is male; using the male avatar file.')
 
-    filePath = '/Users/mahtabsiddique/Documents/avatar/man.jpg' // Replace with the actual file path
+    filePath = (RunConfiguration.getProjectDir() + '/UploadFiles/man.png' // Replace with the actual file path
     // Replace with the actual file path
+    )
 } else {
     WebUI.comment('The employee is female; using the female avatar file.')
 
-    filePath = '/Users/mahtabsiddique/Documents/avatar/woman.jpg'
+    filePath = (RunConfiguration.getProjectDir() + '/UploadFiles/woman.png')
 }
 
-// Upload the photo file
 WebUI.comment('Uploading the profile photo file.')
 
 WebUI.uploadFile(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/file_input_locator'), 
     filePath)
 
-// Add a delay to observe the file upload (optional)
 WebUI.comment('Adding a 2-second delay to observe the file upload.')
 
 WebUI.delay(2)
@@ -116,6 +102,3 @@ WebUI.delay(5)
 
 // Close the browser
 WebUI.comment('Closing the browser.')
-
-WebUI.closeBrowser()
-

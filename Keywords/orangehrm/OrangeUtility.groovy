@@ -58,4 +58,21 @@ public class OrangeUtility {
 			return false
 		}
 	}
+	@Keyword
+	def String verifyGender() {
+		WebUI.delay(5)
+		for (int i = 1; i <= 2; i++) {
+			String boxshadow = WebUI.getCSSValue(findTestObject('Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/span_Gender',
+					[('i') : i]), 'box-shadow');
+			if (boxshadow.contains('rgb(255, 123, 29)')) {
+				println('Element is displaying with Color: Orange');
+		
+				if (i == 1) {
+					return 'Male';
+				} else if (i == 2) {
+					return 'Female';
+				}
+			}
+		}
+	}
 }

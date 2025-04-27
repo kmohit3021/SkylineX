@@ -11,10 +11,16 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='oxd-icon-button oxd-icon-button--solid-main employee-image-action']</value>
+         <value>.//input[@type='file']//following::img[@class='employee-image']//following::i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

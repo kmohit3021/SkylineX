@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>file_input_locator</name>
+   <name>span_Gender</name>
    <tag></tag>
-   <elementGuidId>650c3a60-a2ac-4dbe-8cca-df7ca9702d81</elementGuidId>
+   <elementGuidId>17e65c59-2f81-4759-94e7-263ce09889cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>.//input[@type='file']</value>
+         <value>(//*[@class = '--gender-grouped-field']//following::span[@class='oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input'])[${i}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
