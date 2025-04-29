@@ -27,10 +27,10 @@ WebUI.comment('Maximize the browser window')
 WebUI.maximizeWindow()
 
 WebUI.comment('Enter username')
-WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Username_username'), Employee_Username)
+WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Username_username'), GlobalVariable.Username)
 
 WebUI.comment('Enter encrypted password')
-WebUI.setEncryptedText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Password_password'), Employee_Password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/input_Password_password'), GlobalVariable.Password)
 
 WebUI.comment('Click the Login button')
 WebUI.click(findTestObject('Object Repository/Employee_Time_Module/PunchIn/Page_OrangeHRM/button_Login'))

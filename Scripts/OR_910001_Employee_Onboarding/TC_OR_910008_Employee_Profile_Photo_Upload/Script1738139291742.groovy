@@ -3,6 +3,20 @@ import org.openqa.selenium.support.Color as Color
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 // Open the browser
 WebUI.comment('Opening the browser.')
@@ -72,9 +86,7 @@ String filePath
 if (Employee_Gender == 'Male') {
     WebUI.comment('The employee is male; using the male avatar file.')
 
-    filePath = (RunConfiguration.getProjectDir() + '/UploadFiles/man.png' // Replace with the actual file path
-    // Replace with the actual file path
-    )
+    filePath = (RunConfiguration.getProjectDir() + '/UploadFiles/man.png')
 } else {
     WebUI.comment('The employee is female; using the female avatar file.')
 
@@ -83,7 +95,7 @@ if (Employee_Gender == 'Male') {
 
 WebUI.comment('Uploading the profile photo file.')
 
-WebUI.uploadFile(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/file_input_locator'), 
+CustomKeywords.'com.katalon.testcloud.FileExecutor.uploadFileToWeb'(findTestObject('Object Repository/Employee-Onboarding/Employee_Profile_Photo_Upload_Objects/Page_OrangeHRM/file_input_locator'), 
     filePath)
 
 WebUI.comment('Adding a 2-second delay to observe the file upload.')
@@ -102,3 +114,4 @@ WebUI.delay(5)
 
 // Close the browser
 WebUI.comment('Closing the browser.')
+WebUI.closeBrowser()

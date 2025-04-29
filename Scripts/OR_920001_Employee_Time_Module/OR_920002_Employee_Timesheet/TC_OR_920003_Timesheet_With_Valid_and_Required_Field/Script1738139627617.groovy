@@ -32,13 +32,13 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 WebUI.comment('Entering username...')
 
 WebUI.setText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Username_username'), 
-    UserName)
+    GlobalVariable.Username)
 
 // Set password
 WebUI.comment('Entering password...')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Employee_Time_Module/Timesheet_Valid_Data/Page_OrangeHRM/input_Password_password'), 
-    UserPassword)
+    GlobalVariable.Password)
 
 // Click login
 WebUI.comment('Clicking the login button...')
